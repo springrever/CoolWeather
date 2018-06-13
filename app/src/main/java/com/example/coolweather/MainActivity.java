@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"刘静文  最漂亮！！！",Toast.LENGTH_SHORT).show();
+                Log.i("xoxo"+ "123");
+
+
             }
         });
     }
